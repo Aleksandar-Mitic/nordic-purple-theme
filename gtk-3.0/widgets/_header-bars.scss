@@ -124,10 +124,15 @@ headerbar {
       &:active,
       &:checked,
       &:backdrop,
-      &:backdrop:hover,* {
+      &:backdrop:hover {
         color: transparent;
         box-shadow: none;
         background-color: transparent;
+      }
+
+      image,
+      label {
+        color: $fg_color;
       }
     }
   }

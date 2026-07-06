@@ -2327,16 +2327,20 @@ GraniteWidgetsWelcome {
       border: none;
       background-color: transparent;
       background-repeat: no-repeat; }
-      .titlebar button.titlebutton:hover, .titlebar button.titlebutton:active, .titlebar button.titlebutton:checked, .titlebar button.titlebutton:backdrop, .titlebar button.titlebutton:backdrop:hover, .titlebar button.titlebutton *,
+      .titlebar button.titlebutton:hover, .titlebar button.titlebutton:active, .titlebar button.titlebutton:checked, .titlebar button.titlebutton:backdrop, .titlebar button.titlebutton:backdrop:hover,
       headerbar button.titlebutton:hover,
       headerbar button.titlebutton:active,
       headerbar button.titlebutton:checked,
       headerbar button.titlebutton:backdrop,
-      headerbar button.titlebutton:backdrop:hover,
-      headerbar button.titlebutton * {
+      headerbar button.titlebutton:backdrop:hover {
         color: transparent;
         box-shadow: none;
         background-color: transparent; }
+      .titlebar button.titlebutton image,
+      .titlebar button.titlebutton label,
+      headerbar button.titlebutton image,
+      headerbar button.titlebutton label {
+        color: #d8dee9; }
   .titlebar .linked > button, .titlebar .path-bar-box button,
   .titlebar headerbar .linked > button,
   headerbar .path-bar-box .titlebar button, .titlebar .linked > button:hover,
@@ -6311,3 +6315,45 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
         background-color: #3b4252; }
 
 /*# sourceMappingURL=gtk.css.map */
+
+/* Local fix: keep GTK3 window controls visible in apps using symbolic titlebutton icons. */
+button.titlebutton.close,
+button.titlebutton.maximize,
+button.titlebutton.minimize {
+  color: #eceff4;
+  background-color: rgba(180, 142, 173, 0.18);
+  border-radius: 999px;
+  min-width: 22px;
+  min-height: 22px;
+  padding: 0;
+}
+
+button.titlebutton.close image,
+button.titlebutton.close label,
+button.titlebutton.maximize image,
+button.titlebutton.maximize label,
+button.titlebutton.minimize image,
+button.titlebutton.minimize label {
+  color: #eceff4;
+}
+
+button.titlebutton.close:hover {
+  color: #ffffff;
+  background-color: #bf616a;
+}
+
+button.titlebutton.maximize:hover,
+button.titlebutton.minimize:hover {
+  color: #ffffff;
+  background-color: #b48ead;
+}
+
+button.titlebutton:backdrop {
+  color: rgba(236, 239, 244, 0.72);
+  background-color: rgba(180, 142, 173, 0.10);
+}
+
+button.titlebutton:backdrop image,
+button.titlebutton:backdrop label {
+  color: rgba(236, 239, 244, 0.72);
+}
