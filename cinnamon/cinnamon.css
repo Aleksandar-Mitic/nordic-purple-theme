@@ -1105,7 +1105,7 @@ StScrollBar {
   .menu-category-button-selected {
     padding: 7px; }
   .menu-category-button-selected, .menu-category-button-hover {
-    background-color: rgba(143, 188, 187, 0.3);
+    background-color: rgba(180, 142, 173, 0.3);
     border-radius: 2px;
     box-shadow: none;
     text-shadow: none;
@@ -1311,9 +1311,9 @@ StScrollBar {
   .window-list-item-box:active, .window-list-item-box:checked, .window-list-item-box:focus, .window-list-item-box:running {
     color: #7c5fb8;
     border-color: #b48ead;
-    background-color: rgba(94, 129, 172, 0.3); }
+    background-color: rgba(124, 95, 184, 0.3); }
   .window-list-item-box .progress {
-    background-color: rgba(94, 129, 172, 0.8); }
+    background-color: rgba(124, 95, 184, 0.8); }
 .window-list-item-demands-attention {
   background-gradient-direction: vertical;
   background-gradient-start: #b84f59;
@@ -1362,9 +1362,9 @@ StScrollBar {
   .grouped-window-list-item-box:hover, .grouped-window-list-item-box:active:hover, .grouped-window-list-item-box:focus, .grouped-window-list-item-box:active:focus, .grouped-window-list-item-box:focus:hover, .grouped-window-list-item-box:active:focus:hover {
     color: #2e3440;
     border-color: #7c5fb8;
-    background-color: rgba(94, 129, 172, 0.3); }
+    background-color: rgba(124, 95, 184, 0.3); }
   .grouped-window-list-item-box .progress {
-    background-color: rgba(94, 129, 172, 0.8); }
+    background-color: rgba(124, 95, 184, 0.8); }
 .grouped-window-list-item-demands-attention {
   background-gradient-direction: vertical;
   background-gradient-start: #b84f59;
@@ -1670,7 +1670,7 @@ StScrollBar {
     padding-bottom: 6px; }
   .desklet-drag-placeholder {
     border: 2px solid #b48ead;
-    background-color: rgba(143, 188, 187, 0.3); }
+    background-color: rgba(180, 142, 173, 0.3); }
 
 .photoframe-box {
   border: 1px solid #1f232b;
@@ -1699,7 +1699,7 @@ StScrollBar {
 
 .tile-preview, .tile-preview.snap,
 .tile-hud, .tile-hud.snap {
-  background-color: rgba(143, 188, 187, 0.3);
+  background-color: rgba(180, 142, 173, 0.3);
   border: 1px solid #b48ead; }
 
 .xkcd-box {
@@ -1795,11 +1795,11 @@ StScrollBar {
   .dialog .dialog-button:active:default {
     border: 1px solid #b48ead;
     color: #d8dee9;
-    background-color: #9fc6c5; }
+    background-color: #c7a8f2; }
   .dialog .dialog-button:checked:default {
     border: 1px solid #b48ead;
     color: #d8dee9;
-    background-color: #9fc6c5; }
+    background-color: #c7a8f2; }
   .dialog .dialog-button:insensitive:default {
     border-color: #1f232b;
     border: 1px solid #3f4758;

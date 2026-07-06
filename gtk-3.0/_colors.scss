@@ -20,12 +20,12 @@ $yellow: $nord13;
 $purple: $nord15;
 $darkpurple: #7b7bbd;
 $blue: $nord10;
-$cyan: $nord10;
+$cyan: $nord8;
 $slider: #7b7bbd;
-$teal: $nord14;
+$teal: $nord7;
 
 $selected_fg_color: $nord0;
-$selected_bg_color: if($accent == 'blue', $nord9, $nord7);
+$selected_bg_color: $nord7;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken($main_dark_color, 5%);

@@ -2,6 +2,8 @@
 
 Personal purple-accent variant of the Nordic GTK/GNOME Shell theme.
 
+See `PALETTE.md` for the purple replacement map and verification command.
+
 ## Install
 
 ```bash
