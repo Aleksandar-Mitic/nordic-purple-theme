@@ -89,8 +89,8 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [General]
-ColorScheme=Nordic-Darker
-Name=Nordic-Darker
+ColorScheme=Nordic-Purple-Darker
+Name=Nordic-Purple-Darker
 shadeSortColumn=true
 
 [KDE]

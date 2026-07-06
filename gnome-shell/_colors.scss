@@ -9,10 +9,10 @@ $topbar_color: #d8dee9;
 $lime: #a3be8c;
 $red: #bf616a;
 $purple: #b48ead;
-$cyan: #88c0d0;
+$cyan: #cba6f7;
 
 $selected_fg_color: #fefefe;
-$selected_bg_color:transparentize(#8fbcbb, 0.3);
+$selected_bg_color:transparentize(#b48ead, 0.3);
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: darken(#2e3440, 7%);
 $borders_edge: transparentize(white, 0.9);

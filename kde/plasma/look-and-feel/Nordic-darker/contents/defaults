@@ -2,19 +2,19 @@
 widgetStyle=kvantum
 
 [kdeglobals][General]
-ColorScheme=Nordic-Darker
+ColorScheme=Nordic-Purple-Darker
 
 [kdeglobals][Icons]
-Theme=Nordic-darker
+Theme=Nordic-Purple-darker
 
 [kcminputrc][Mouse]
-cursorTheme=Nordic-cursors
+cursorTheme=Nordic-Purple-cursors
 
 [plasmarc][Theme]
-name=Nordic-darker
+name=Nordic-Purple-darker
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Nordic
+theme=__aurorae__svg__Nordic-Purple
 
 

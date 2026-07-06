@@ -9,4 +9,4 @@ _gnome-shell/
 
 install.sh
 *blue.*
-
+*.bak.*

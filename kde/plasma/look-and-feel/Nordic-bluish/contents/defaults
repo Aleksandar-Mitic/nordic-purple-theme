@@ -5,16 +5,16 @@ widgetStyle=kvantum
 ColorScheme=nordic-bluish
 
 [kdeglobals][Icons]
-Theme=Nordic-bluish
+Theme=Nordic-Purple-bluish
 
 [kcminputrc][Mouse]
-cursorTheme=Nordic-cursors
+cursorTheme=Nordic-Purple-cursors
 
 [plasmarc][Theme]
-name=Nordic-bluish
+name=Nordic-Purple-bluish
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Nordic
+theme=__aurorae__svg__Nordic-Purple
 
 

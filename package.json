@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EliverLara/Nordic.git"
+    "url": "git+https://github.com/EliverLara/Nordic-Purple.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EliverLara/Nordic/issues"
+    "url": "https://github.com/EliverLara/Nordic-Purple/issues"
   },
-  "homepage": "https://github.com/EliverLara/Nordic#readme",
+  "homepage": "https://github.com/EliverLara/Nordic-Purple#readme",
   "dependencies": {
     "gulp": "^4.0.0",
     "gulp-exec": "^5.0.0"
