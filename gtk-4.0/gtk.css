@@ -1677,6 +1677,40 @@ messagedialog, .messagedialog, .dialog {
 .alert.floating .body-scrolled-window {
   padding: 26px; }
 
+.messagedialog .response-area button,
+.dialog .dialog-action-area button,
+.alert.floating .response-area button {
+  background-color: rgba(180, 142, 173, 0.18);
+  color: #d8dee9;
+  border-color: rgba(180, 142, 173, 0.28);
+  box-shadow: none; }
+
+.messagedialog .response-area button:hover,
+.dialog .dialog-action-area button:hover,
+.alert.floating .response-area button:hover {
+  background-color: rgba(180, 142, 173, 0.32);
+  color: #d8dee9; }
+
+.messagedialog .response-area button:last-child,
+.dialog .dialog-action-area button:last-child,
+.alert.floating .response-area button:last-child,
+.messagedialog .response-area button.destructive-action,
+.dialog .dialog-action-area button.destructive-action,
+.alert.floating .response-area button.destructive-action {
+  background-color: #bf616a;
+  border-color: #bf616a;
+  color: white; }
+
+.messagedialog .response-area button:last-child:hover,
+.dialog .dialog-action-area button:last-child:hover,
+.alert.floating .response-area button:last-child:hover,
+.messagedialog .response-area button.destructive-action:hover,
+.dialog .dialog-action-area button.destructive-action:hover,
+.alert.floating .response-area button.destructive-action:hover {
+  background-color: #c8767e;
+  border-color: #c8767e;
+  color: white; }
+
 filechooser .dialog-action-box {
   border-top: 1px solid #232831; }
   filechooser .dialog-action-box:backdrop {

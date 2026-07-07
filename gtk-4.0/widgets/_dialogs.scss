@@ -36,6 +36,44 @@ messagedialog, .messagedialog, .dialog { // Message Dialog styling
   padding: 26px;
 }
 
+.messagedialog .response-area button,
+.dialog .dialog-action-area button,
+.alert.floating .response-area button {
+  background-color: rgba($selected_bg_color, 0.18);
+  color: $fg_color;
+  border-color: rgba($selected_bg_color, 0.28);
+  box-shadow: none;
+}
+
+.messagedialog .response-area button:hover,
+.dialog .dialog-action-area button:hover,
+.alert.floating .response-area button:hover {
+  background-color: rgba($selected_bg_color, 0.32);
+  color: $fg_color;
+}
+
+.messagedialog .response-area button:last-child,
+.dialog .dialog-action-area button:last-child,
+.alert.floating .response-area button:last-child,
+.messagedialog .response-area button.destructive-action,
+.dialog .dialog-action-area button.destructive-action,
+.alert.floating .response-area button.destructive-action {
+  background-color: $destructive_color;
+  border-color: $destructive_color;
+  color: white;
+}
+
+.messagedialog .response-area button:last-child:hover,
+.dialog .dialog-action-area button:last-child:hover,
+.alert.floating .response-area button:last-child:hover,
+.messagedialog .response-area button.destructive-action:hover,
+.dialog .dialog-action-area button.destructive-action:hover,
+.alert.floating .response-area button.destructive-action:hover {
+  background-color: lighten($destructive_color, 6%);
+  border-color: lighten($destructive_color, 6%);
+  color: white;
+}
+
 filechooser {
   .dialog-action-box {
     border-top: 1px solid $borders_color;
